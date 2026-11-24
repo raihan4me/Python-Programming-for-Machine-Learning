@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtualenv
+.venv/
+
+# Data & model artefacts (regenerable)
+data/raw/customers.csv
+data/processed/customers_clean.csv
+data/new_customers.csv
+data/api_request.json
+models/*.joblib
+models/model_metadata.json
+reports/metrics.json
+reports/predictions.csv
+reports/figures/*.png
+
+# Server logs / pids
+uvicorn.log
+uvicorn.pid
