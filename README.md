@@ -8,10 +8,17 @@ What you will build:
 
 ~/churn-lab/
   pyproject.toml, requirements.txt, requirements.lock
+  
   scripts/      generate_data.py, vectorize_demo.py, eda.py, plots.py, broken_train.py
+  
   mlkit/        numops.py, data_io.py, clean.py, features.py, train.py, tune.py, predict.py, api.py
+  
   tests/        test_numops.py, test_clean.py, test_pipeline.py, test_threshold.py
+  
   data/         raw/, processed/, new_customers.csv, api_request.json
+  
   reports/      figures/*.png, metrics.json, predictions.csv
+  
   models/       churn_model.joblib, model_metadata.json
+  
   validate.sh
